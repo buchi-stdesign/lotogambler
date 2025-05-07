@@ -1,0 +1,17 @@
+# rules.yaml
+
+use_previous_numbers: true
+previous_number_count: 2
+
+use_common_pairs: true
+common_pair_limit: 20
+
+use_zone_distribution: true
+zones:
+  - [1, 10]
+  - [11, 20]
+  - [21, 30]
+  - [31, 43]
+
+exclude_hot_numbers: true
+hot_count: 3
